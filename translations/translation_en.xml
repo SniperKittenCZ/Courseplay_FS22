@@ -221,5 +221,8 @@
 - Moving a course in to another directory.
 - Deleting a course or directory.
 - Renaming a course or directory."/>
+
+	<!-- Course display-->
+		<text name="input_CP_OPEN_CLOSE_VEHICLE_SETTING_DISPLAY" 										text = "CP: Open/close vehicle setting display"/>
 	</texts>
 </l10n>

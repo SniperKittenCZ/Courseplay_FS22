@@ -225,9 +225,13 @@ function AIParameterSettingList:setGenericGuiElementValues(guiElement)
 	guiElement.leftButtonElement:setCallback("onClickCallback", "setPreviousItem")
 	guiElement.rightButtonElement:setCallback("onClickCallback", "setNextItem")
 	guiElement:setCallback("onClickCallback", "onClick")
-	guiElement:setLabel(self:getTitle())
+	if guiElement.labelElement and guiElement.labelElement.setText then
+		guiElement:setLabel(self:getTitle())
+	end
 	local toolTipElement = guiElement.elements[6]
-	toolTipElement:setText(self:getTooltip())
+	if toolTipElement then
+		toolTipElement:setText(self:getTooltip())
+	end
 end
 
 function AIParameterSettingList:getGuiElementTexts()
