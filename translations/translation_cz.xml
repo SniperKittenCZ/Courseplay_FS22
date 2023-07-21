@@ -303,7 +303,7 @@
     <text name="CP_global_setting_stopThreshingDuringRain_tooltip" text="Pokud je nastavení aktivní, pak všechny sklízeče čekají, až přestane pršet."/>
     <text name="CP_global_setting_fruitDestruction_title" text="Zničení plodin AI pracovníkem"/>
     <text name="CP_global_setting_fruitDestruction_tooltip" text="Zapíná/vypíná zničení plodin pro pracovníky."/>
-    <text name="CP_global_setting_fruitDestruction_only_cp" text="Aktivní pouze pro Coursesplay pracovníky"/>
+    <text name="CP_global_setting_fruitDestruction_only_cp" text="Aktivní pouze pro CP pracovníky"/>
     <text name="CP_global_setting_fruitDestruction_all_helpers" text="Aktivní pro všechny pracovníky"/>
     <!---->
     <!--Global settings user settings-->
